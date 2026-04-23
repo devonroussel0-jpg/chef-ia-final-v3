@@ -1,6 +1,5 @@
 import { useState, useRef, useEffect } from "react";
-import React from "react";
-import ReactDOM from "react-dom/client";
+
 const STYLES = `
   @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap');
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -979,6 +978,4 @@ clashes:[] si aucune incompatibilité.`;
       </div>
     </>
   );
-  
-}const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
+}
