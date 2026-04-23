@@ -1,7 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import { createRoot } from "react-dom/client";
 
-const STYLES = `
   @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap');
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { background: #0f0e0c; color: #f0ead6; font-family: 'DM Sans', sans-serif; min-height: 100vh; }
